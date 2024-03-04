@@ -21,18 +21,19 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const images = [
   {
-    title: "Khaligraph",
-    image: Khaligraph,
-  },
-  // {
-  //   title: "Jammin",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fimages%2FJammin.png?alt=media&token=14be21d5-ba3b-4424-87a1-db4126f0c104",
-  // },
-  {
     title: "Events",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/bloow-f5237.appspot.com/o/files%2Fimages%2Fheaders%2F04%20Music%20Channel.png?alt=media&token=b292a5a0-173a-4c81-bf70-a11958e8bcd3",
+      "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2FWhatsApp%20Image%202024-02-26%20at%2011.50.09%20AM%402x.png?alt=media&token=fb42fb40-bba1-44c7-a0c8-40beb345fd2f",
+  },
+  {
+    title: "Khaligraph",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2F4bdca875356809.5c4a130d81921.png?alt=media&token=391226e0-aafc-48a6-a7da-0b889e5f04fa",
+  },
+  {
+    title: "Jammin",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2Fe8d56a36187505.576d56dbcf010.png?alt=media&token=9ec174f4-2b96-4e97-bd4c-ea93d6ee6706",
   },
 ];
 
@@ -130,7 +131,6 @@ function AuthenticatedHome() {
             </p>
 
             <div className="flex items-center">
-              
               <ul className="text-white font-thin relative inset-x-2/3 top-32 inset-x-1/4 md:mx-auto">
                 <li>Merchandise</li>
                 <li>Voting & Awards</li>
@@ -146,7 +146,6 @@ function AuthenticatedHome() {
                 <li>Portfolio</li>
                 <li>Affiliate Programs</li>
               </ul>
-          
             </div>
           </div>
 
@@ -156,7 +155,6 @@ function AuthenticatedHome() {
             </p>
 
             <div className="flex items-center">
-          
               <ul className="text-white font-thin relative inset-x-2/3 top-32 inset-x-1/4 md:mx-auto">
                 <li>Merchandise</li>
                 <li>Voting & Awards</li>

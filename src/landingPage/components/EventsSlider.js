@@ -44,7 +44,7 @@ function EventsSlider() {
               <img
                 className="w-full lazyload"
                 data-src={
-                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fimages%2Ftrio.png?alt=media&token=4e4efece-dc55-4d45-ad8b-6be45e9b77ad"
+                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2Fevent1.png?alt=media&token=21b58fa1-e4b2-438f-ab14-0f2789a90428"
                 }
                 alt="upcoming event one"
               />
@@ -55,7 +55,9 @@ function EventsSlider() {
               </p>
               <img
                 className="w-full lazyload"
-                data-src={UONPoster}
+                data-src={
+                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2Fevent2.png?alt=media&token=963e9d5d-6f2b-4e37-89f8-42f60d845608"
+                }
                 alt="upcoming event two"
               />
             </div>
@@ -66,7 +68,7 @@ function EventsSlider() {
               <img
                 className="w-full lazyload"
                 data-src={
-                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fimages%2Fevent%202.png?alt=media&token=4f1593a0-2b3d-49f3-890b-26fde64e6586"
+                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2Fevent2.png?alt=media&token=963e9d5d-6f2b-4e37-89f8-42f60d845608"
                 }
                 alt="upcoming event three"
               />
@@ -78,7 +80,7 @@ function EventsSlider() {
               <img
                 className="w-full lazyload"
                 data-src={
-                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fimages%2Fconcert%20event.png?alt=media&token=75e5e6c0-d8ee-4126-b0ab-810bdaf6a225"
+                  "https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fwhitelabel%2Fevent1.png?alt=media&token=21b58fa1-e4b2-438f-ab14-0f2789a90428"
                 }
                 alt="upcoming event four"
               />

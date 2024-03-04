@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-
+import Tv from "../../assets/tv.png";
 function TvRadio({ image }) {
   const [play, setPlay] = useState(false);
 
@@ -97,7 +97,7 @@ function TvRadio({ image }) {
             />
           ) : (
             <div className=" relative">
-              <img src={image} alt="Video thumbnail" onClick={handlePlay} />
+              <img src={Tv} alt="Video thumbnail" onClick={handlePlay} />
               <div className="absolute w-full top-48">
                 <AiFillPlayCircle
                   className=" cursor-pointer mx-auto text-white text-6xl"

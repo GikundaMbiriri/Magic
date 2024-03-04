@@ -43,7 +43,7 @@
   /* overflow: hidden; */
 }
 .awards--section {
-  background: url('https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fimages%2Fawards.png?alt=media&token=b0b62999-304c-4290-8fa0-f746cacefb1a');
+  background: url('./assets/awards.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
