@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+  width: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 100vh;
+  border: 3px solid #FFFFFF;
+  background: #FFFFFF;
+}
+
+/* Handle on hover */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.leaderboard--background {
+  background: url('./assets/leaderboard-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.key--features--section {
+  background: url('./assets/key-features-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+.awards--section {
+  background: url('https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fimages%2Fawards.png?alt=media&token=b0b62999-304c-4290-8fa0-f746cacefb1a');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.footer--background {
+  background: url('./assets/footer-background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+} 
+
+.contact--background{
+  background: url('./assets/contactForm.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+
+.reach--background{
+  background: url('./assets/contactInformation.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  z-index: 1;
+}
+
+.subscription--background{
+  background: url('./assets/subscriptionForm.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
 }
