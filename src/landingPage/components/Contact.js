@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="grid md:grid-cols-2 grid">
+    <div className=" md:grid-cols-2 md:grid">
       <div className="contact--background">
         <div className="text-2xl">
           <div className="pl-16 pt-4 mb-4">

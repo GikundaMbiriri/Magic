@@ -16,7 +16,9 @@ function Navbar() {
           {open ? <AiOutlineClose /> : <BiMenu />}
         </div>
         <div className="text-3xl text-center md:pl-8 pl-14 absolute">
-          <div className="font-semibold no-underline text-black">Magic</div>
+          <div className="font-semibold md:pt-0 pt-2 no-underline text-black">
+            Magic
+          </div>
         </div>
 
         <ul
