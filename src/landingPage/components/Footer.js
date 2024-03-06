@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer--background p-4">
       <div className="md:flex grid items-center">
-        <div className="w-60 h-60 pr-4">
+        <div className="w-20 h-20 pr-4">
           <img data-src={logo} className="lazyload" alt="footer" />
         </div>
         <div className="md:flex md:items-center md:justify-between grid md:w-1/2 w-full mx-auto">

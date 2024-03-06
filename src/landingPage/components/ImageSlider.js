@@ -39,7 +39,7 @@ function ImageSlider({ images }) {
             images.map((item) => (
               <div
                 key={item.title}
-                className="w-11/12 m-auto flex justify-between flex-shrink-0 cursor-pointer"
+                className="md:w-11/12 w-full m-auto flex justify-between flex-shrink-0 cursor-pointer"
                 onClick={
                   item?.link
                     ? () => {
@@ -49,11 +49,11 @@ function ImageSlider({ images }) {
                 }
               >
                 <img
-                  className=" rounded-md lazyload "
+                  className=" object-cover rounded-md lazyload md:h-[58vh] h-[40vh] "
                   src={blurredKhali}
                   data-src={item.image}
                   alt={item.title}
-                  style={{ width: "100%", height: "58vh" }}
+                  style={{ width: "100%" }}
                 />
               </div>
             ))}

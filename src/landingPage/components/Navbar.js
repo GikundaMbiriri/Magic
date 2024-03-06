@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
-
+import { NavLink } from "react-router-dom";
 function Navbar() {
   let [open, setOpen] = useState(false);
 
@@ -82,7 +82,62 @@ function Navbar() {
           </li>
           <div className="ml-8  ">{/* <Search /> */}</div>
         </ul>
-
+        {open && (
+          <ul
+            className={`md:flex md:items-center md:pl-80 pt-2 md:pb-0 pb-12 absolute md:static bg-white
+                       w-11/12 rounded-2xl mt-2 right-4 md:p1-0 p1-9 transition-all duration-500 pl-3 z-50
+                        ease-in ${open ? "top-20" : "top-[-490px]"}`}
+          >
+            <li className="cursor-pointer md:ml-8 text-xl md:my-0 my-7 text-black">
+              <NavLink
+                to="/artists"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-black no-underline"
+                    : "text-black no-underline"
+                }
+              >
+                For Artists
+              </NavLink>
+            </li>
+            <li className="cursor-pointer md:ml-8 text-xl md:my-0 my-7">
+              <NavLink
+                to="/fans"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-black no-underline"
+                    : "text-black no-underline"
+                }
+              >
+                For Fans
+              </NavLink>
+            </li>
+            <li className="cursor-pointer md:ml-8 text-xl md:my-0 my-7">
+              <NavLink
+                to="/business"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-black no-underline"
+                    : "text-black no-underline"
+                }
+              >
+                For Business
+              </NavLink>
+            </li>
+            <li className="cursor-pointer md:ml-8 text-xl md:my-0 my-7">
+              <NavLink
+                to="/player"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-bold text-black no-underline"
+                    : "text-black no-underline"
+                }
+              >
+                Music
+              </NavLink>
+            </li>
+          </ul>
+        )}
         <div className="flex items-center justify-end pt-4 md:pt-2">
           <div className="no-underline text-black font-semibold mb-3 md:mr-2 cursor-pointer ">
             SignIn/

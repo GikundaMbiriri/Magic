@@ -28,7 +28,7 @@ function ArtistSlider({ title, items }) {
   };
   return (
     <>
-      <div className="leaderboard--background py-8">
+      <div className="leaderboard--background  py-8">
         <h2 className="text-center text-4xl py-4">{title}</h2>
 
         <div className="flex gap-4 items-center my-6 w-11/12 mx-auto">
@@ -72,6 +72,7 @@ function ArtistSlider({ title, items }) {
           </button>
         </div>
       </div>
+  
     </>
   );
 }

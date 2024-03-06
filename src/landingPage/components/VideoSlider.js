@@ -51,7 +51,7 @@ function VideoSlider({ image }) {
           ) : (
             <div className=" relative">
               <img src={image} alt="Video thumbnail" onClick={handlePlay} />
-              <div className="absolute w-full top-48">
+              <div className="absolute w-full md:top-48 top-16 ">
                 <AiFillPlayCircle
                   className=" cursor-pointer mx-auto text-white text-6xl"
                   onClick={handlePlay}

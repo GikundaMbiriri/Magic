@@ -83,3 +83,13 @@
   background-size: cover;
   height: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .awards--section {
+    background: url('./assets/awards.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+  }
+}

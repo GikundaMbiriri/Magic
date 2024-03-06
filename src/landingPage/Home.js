@@ -127,7 +127,7 @@ function AuthenticatedHome() {
         <OwlCarousel {...options}>
           <div className="item pb-20">
             <p className="text-white text-2xl font-mono relative top-24 md:left-80  left-20">
-              Key Features <br /> on Bloow
+              Key Features <br /> on Magic
             </p>
 
             <div className="flex items-center">

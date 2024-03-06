@@ -65,27 +65,7 @@ function TvRadio({ image }) {
         </div>
       </div>
       <div className="relative w-11/12 mx-auto">
-        <div className="absolute inset-y-1/3  w-full mt-4">
-          {/* <div className="flex justify-between items-center">
-            {!play && (
-              <>
-             
-                <img
-                  className="w-8 mx-auto lg:w-24 z-10 cursor-pointer"
-                  onClick={handlePlay}
-                  src={playCircle}
-                  alt="play circle icon"
-                />
-            
-              </>
-            )}
-          </div> */}
-        </div>
-
-        <div
-          style={{ minHeight: "500px" }}
-          className="my-7 flex justify-center"
-        >
+        <div className="my-7 flex justify-center md:min-h-[500px]">
           {play ? (
             <ReactPlayer
               url="https://firebasestorage.googleapis.com/v0/b/bloow-prod.appspot.com/o/files%2Fvideos%2FUON-%20Sponsor.mp4?alt=media&token=79c8be7e-7c38-49e2-b7d7-31c3d2ffeba3"
@@ -98,7 +78,7 @@ function TvRadio({ image }) {
           ) : (
             <div className=" relative">
               <img src={Tv} alt="Video thumbnail" onClick={handlePlay} />
-              <div className="absolute w-full top-48">
+              <div className="absolute w-full md:top-48 top-16">
                 <AiFillPlayCircle
                   className=" cursor-pointer mx-auto text-white text-6xl"
                   onClick={handlePlay}

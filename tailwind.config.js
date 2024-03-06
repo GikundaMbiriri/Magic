@@ -7,6 +7,7 @@ module.exports = {
         "main-bg": "#14002A",
         "dark-yellow": "#FF2500",
         "light-yellow": "#FFDB00",
+        "magic-blue": "#00CCFF",
       },
     },
   },
